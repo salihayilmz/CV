@@ -1,0 +1,268 @@
+
+body {
+    background-color:#ECF2FF;
+    padding: 0;
+    margin: 0;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #DCD6F7;
+    width: 100%;
+    background-color:#ECF2FF;
+}
+h1 {
+    color: #424874;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    padding: 10px;
+    margin: 1px;
+}
+h3 {
+    color: #424874;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2em;
+    margin: auto;
+}
+h4 {
+    color: #424874;
+    font-family: 'Delicious Handrawn', cursive;
+}
+div {
+    background-color: #ECF2FF;
+    margin: 20px;
+}
+
+
+
+/* İLETİŞİM BİLGİLERİ */
+
+.name {
+    /*background-color: #B5EAEA;*/
+    font-family: 'Sacramento', cursive;
+    border-radius: 500px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.job {
+    background-color: #DCEEC9;
+    font-family: 'Sacramento', cursive;
+    border-radius: 200px;
+    margin: 3px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    background-color: #FFD8D8;
+    font-family: 'Delicious Handrawn', cursive;
+    border-radius: 200px;
+    margin: 3px;
+    
+}
+.mail {
+    background-color: #FFB5C4;
+    font-family: 'Delicious Handrawn', cursive;
+    border-radius: 200px;
+    margin: 3px;
+    
+}
+.phone {
+    background-color: #A6B1E1;
+    font-family: 'Delicious Handrawn', cursive;
+    border-radius: 200px;
+    margin: 3px;
+    
+}
+.main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* EĞİTİM */
+
+.egitim {
+    background-color: #CBF4F4;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+.egitim_baslik {
+    background-color: #CBF4F4;
+}
+.egitim_foto {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.egitim_tablo {
+    background-color: #CBF4F4;
+    margin-left: 300px;
+}
+.egitim_yazi {
+    margin-left: 300px;
+}
+
+
+
+
+/* YETENEKLERİM */
+
+.yetenek {
+    background-color: #DCEEC9;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+.yetenek_baslik {
+    background-color: #DCEEC9;
+}
+.yetenek_foto {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.yetenek_tablo {
+    background-color: #DCEEC9;
+    margin-left: 300px;
+}
+.yetenek_yazi {
+    margin-left: 300px;
+}
+
+
+
+
+/* SERTİFİKALARIM */
+
+.sertifika {
+    background-color: #FFD8D8;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+
+}
+.sertifika_baslik {
+    background-color: #FFD8D8;
+   
+}
+.sertifika_foto {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.sertifika_tablo {
+    background-color: #FFD8D8;
+    margin-left: 300px;
+}
+.sertifika_yazi {
+    margin-left: 300px;
+}
+
+
+
+/* İLGİ ALANLARIM */
+
+.ilgi {
+    background-color: #FFB5C4;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+
+}
+.ilgi_baslik {
+    background-color: #FFB5C4;
+    
+}
+.ilgi_foto {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.ilgi_tablo {
+    background-color: #FFB5C4;
+    margin-left: 300px;
+}
+.ilgi_yazi {
+    margin-left: 300px;
+}
+
+
+/* SAYFANIN ALT KISMI */
+
+.imza {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    color: #A6B1E1;
+    text-align: center;
+    text-decoration: none;
+}
+.link {
+    color: #A6B1E1;
+    text-align: center;
+}
+.sertifika_link {
+    text-decoration: none;
+}
+.inek {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.right-cloud {
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+.left-cloud {
+    position: relative;
+    top: 130px;
+    left: 170px;
+}
+
+.container {
+
+background-color: #A6B1E1;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A6B1E1;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+  }
